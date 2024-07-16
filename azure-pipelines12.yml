@@ -5,6 +5,10 @@
 
 trigger:
   - stage1
+pr:
+  branches:
+    include:
+      - stage1
 
 pool:
   vmImage: ubuntu-latest
